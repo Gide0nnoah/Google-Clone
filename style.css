@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 60px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+li{
+    text-align: center;
+    padding: 14px 12px;
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.small-text{
+    font-size: 0.9rem;
+}
+.menu-bg{
+    width: 40px;
+    height: 40px;
+}
+.menu-bg:hover{
+    background-color: rgba(100, 100, 100, 0.1);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.menu-button{
+    width: 15px;
+}
+.profile-pic{
+    width: 100%;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+.search-wrapper{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    position: relative;
+    margin-top: 30px;
+}
+input{
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+    font-size: 1.2rem;
+}
+input:hover{
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+}
+input:focus{
+    outline: none;
+}
+.search{
+    width: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.lens{
+    position: absolute;
+    width: 20px;
+    top: 11px;
+    right: 20px;
+}
+.mic{
+    position: absolute;
+    width: 13px;
+    top: 12px;
+    right: 60px;
+}
+.buttons{
+width: 350px;
+display: flex;
+justify-content: center;
+margin: auto;
+margin-top: 30px;
+gap: 15px;
+}
+button{
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+button:hover{
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5);
+    cursor: pointer;
+}
+section{
+    margin-top: 10%;
+}
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.panel{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    align-items: center;
+}
+.panel > *{
+    flex-basis: 33%;
+}
+.carbon{
+    width: 15px;
+    text-align: center;
+}
+p{
+    color: grey;
+    padding-left: 13px;
+}
+.right{
+    justify-content: flex-end;
+}
